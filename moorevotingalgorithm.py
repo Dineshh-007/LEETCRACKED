@@ -8,8 +8,6 @@ class Solution:
         n = len(nums)
         return nums[n//2]
 
-
-
 # class Solution:
 #     def majorityElement(self, nums: List[int]):
 #         freq=0
