@@ -1,7 +1,7 @@
 # Time complexity -----> O(n)
 # Max sum in a subarray
 
-arr = [3, -4, 5, 4, -1, 7, -8]
+arr = [3, -4, 5, 4, -1, 7, -9]
 n=len(arr)
 
 maxSum=float('-inf')   
