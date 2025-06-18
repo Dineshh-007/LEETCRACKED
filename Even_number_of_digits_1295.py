@@ -1,3 +1,5 @@
+import math
+
 class Solution:
     def findNumbers(self, nums):
         # main_count = 0
@@ -17,7 +19,12 @@ class Solution:
         #         count+=1
         # return count
 
-        return sum(1 for num in nums if len(str(num)) % 2 == 0)
+        # return sum(1 for num in nums if len(str(num)) % 2 == 0)
+
+
+        return sum(1 for num in nums if (math.log10(num)+1 % 2) == 0)
+
+        # here except string method all methods are best one.....
 
 
 nums = [12,345,2,6,7996]
